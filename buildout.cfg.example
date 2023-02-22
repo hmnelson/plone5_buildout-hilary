@@ -1,0 +1,7 @@
+[buildout]
+extends-cache = .cache
+#extends = profiles/project.cfg
+#extends = profiles/production.cfg
+#extends = profiles/production_zeo.cfg
+#extends = profiles/testserver.cfg
+extends = profiles/development.cfg

@@ -27,11 +27,15 @@ Use Homebrew to install pyenv, and pyenv to install Python 3.8.16.
 
 Then create a virtualenv using that Python. (I'm following SixFeetUp procedure for our engineering Plone.) 
 From your buildout root, run:
+
 virtualenv env --python=/Users/yourusername/.pyenv/versions/3.8.16/bin/python3
 
 Then:
+
 env/bin/pip install -r requirements.txt
+
 env/bin/buildout -v
+
 bin/instance fg
 
 Use this buildout

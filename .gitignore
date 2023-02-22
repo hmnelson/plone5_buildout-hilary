@@ -43,3 +43,4 @@ pip-selfcheck.json
 .idea
 .Python
 pyvenv.cfg
+env

@@ -52,3 +52,4 @@ install
 6. `$ ./bin/buildout -v`
 7. `$ ./bin/instance fg`
 8. open in browser localhost:8080
+
